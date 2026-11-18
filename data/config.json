@@ -1,0 +1,20 @@
+{
+  "title": "Trivia Clásica",
+  "subtitle": "Pon a prueba tus conocimientos",
+  "duration": 10,
+  "lives": 3,
+  "pointsPerCorrect": 10,
+  "penaltyLives": 1,
+  "interQuestionSeconds": 0,
+  "successMessage": "¡Correcto!",
+  "failMessage": "¡Fallaste!",
+  "timeOutMessage": "¡Tiempo agotado!",
+  "noLivesMessage": "¡Sin vidas!",
+  "finalMessage": "¡Juego terminado!",
+  "primaryColor": "#8B4513",
+  "secondaryColor": "#D9A05B",
+  "musicVolume": 0.45,
+  "effectsVolume": 0.7,
+  "muted": false,
+  "record": 0
+}

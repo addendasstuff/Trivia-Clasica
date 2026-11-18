@@ -1,0 +1,410 @@
+{
+  "Historia": [
+    [
+      "¿Cuál de las siguientes maravillas del mundo antiguo se encontraba ubicada en la ciudad de Alejandría?",
+      [
+        "El Coloso de Rodas",
+        "El Faro de Alejandría",
+        "Los Jardines Colgantes de Babilonia",
+        "El Templo de Artemisa"
+      ],
+      1
+    ],
+    [
+      "¿Quién fue el primer emperador del Imperio Romano tras la caída de la República?",
+      [
+        "Julio César",
+        "Nerón",
+        "César Augusto",
+        "Marco Aurelio"
+      ],
+      2
+    ],
+    [
+      "¿En qué ciudad de la península itálica surgió el movimiento renacentista en el siglo XIV?",
+      [
+        "Florencia",
+        "Venecia",
+        "Roma",
+        "Milán"
+      ],
+      0
+    ],
+    [
+      "¿Qué civilización mesopotámica desarrolló la escritura cuneiforme, considerada la forma de escritura más antigua conocida?",
+      [
+        "Asirios",
+        "Sumerios",
+        "Babilonios",
+        "Fenicios"
+      ],
+      1
+    ],
+    [
+      "¿En qué año se firmó la Carta Magna en Inglaterra, documento clave para limitar el poder de la monarquía?",
+      [
+        "1066",
+        "1492",
+        "1215",
+        "1348"
+      ],
+      2
+    ],
+    [
+      "¿Qué imperio construyó la ciudadela de Machu Picchu en lo alto de la cordillera de los Andes?",
+      [
+        "Maya",
+        "Mexica",
+        "Muisca",
+        "Inca"
+      ],
+      3
+    ],
+    [
+      "¿Qué acontecimiento de 1789 marcó el inicio formal de la Revolución Francesa?",
+      [
+        "La Toma de la Bastilla",
+        "La ejecución de Luis XVI",
+        "La Batalla de Waterloo",
+        "El golpe del 18 de brumario"
+      ],
+      0
+    ],
+    [
+      "¿Qué navegante portugués lideró la expedición que logró circunnavegar la Tierra por primera vez (completada por Juan Sebastián Elcano)?",
+      [
+        "Vasco da Gama",
+        "Fernando de Magallanes",
+        "Bartolomé Díaz",
+        "Américo Vespucio"
+      ],
+      1
+    ],
+    [
+      "¿En qué fecha se llevó a cabo el desembarco aliado en Normandía, conocido como el Día D?",
+      [
+        "6 de junio de 1944",
+        "1 de septiembre de 1939",
+        "8 de mayo de 1945",
+        "7 de diciembre de 1941"
+      ],
+      0
+    ],
+    [
+      "¿En qué año cayó el Muro de Berlín, marcando el fin simbólico de la Guerra Fría?",
+      [
+        "1991",
+        "1989",
+        "1975",
+        "1985"
+      ],
+      1
+    ]
+  ],
+  "Ciencia": [
+    [
+      "¿Cuál es el planeta más caliente del Sistema Solar, a pesar de no ser el más cercano al Sol?",
+      [
+        "Mercurio",
+        "Venus",
+        "Marte",
+        "Júpiter"
+      ],
+      1
+    ],
+    [
+      "¿Qué orgánulo es el encargado de producir energía mediante respiración celular en las células eucariotas?",
+      [
+        "Ribosoma",
+        "Aparato de Golgi",
+        "Mitocondria",
+        "Lisosoma"
+      ],
+      2
+    ],
+    [
+      "¿Cuál es el elemento químico más abundante en el universo observable?",
+      [
+        "Hidrógeno",
+        "Helio",
+        "Oxígeno",
+        "Carbono"
+      ],
+      0
+    ],
+    [
+      "¿Quién formuló la Teoría de la Relatividad General en 1915?",
+      [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Niels Bohr",
+        "Max Planck"
+      ],
+      1
+    ],
+    [
+      "¿Qué biomolécula contiene la información genética de la mayoría de los organismos vivos y tiene estructura de doble hélice?",
+      [
+        "ARN",
+        "Proteína",
+        "ADN",
+        "Glucógeno"
+      ],
+      2
+    ],
+    [
+      "¿Cómo se llama la capa sólida y más externa de la estructura de la Tierra?",
+      [
+        "Manto",
+        "Corteza",
+        "Núcleo externo",
+        "Litosfera media"
+      ],
+      1
+    ],
+    [
+      "¿Quién descubrió la penicilina en 1928, marcando el inicio de la era de los antibióticos?",
+      [
+        "Louis Pasteur",
+        "Alexander Fleming",
+        "Robert Koch",
+        "Edward Jenner"
+      ],
+      1
+    ],
+    [
+      "¿Cómo se llama el cambio de dirección y velocidad que experimenta un haz de luz al pasar de un medio transparente a otro?",
+      [
+        "Reflexión",
+        "Difracción",
+        "Refracción",
+        "Polarización"
+      ],
+      2
+    ],
+    [
+      "¿Qué gas absorben principalmente las plantas durante la fotosíntesis para convertirlo en glucosa?",
+      [
+        "Dióxido de carbono",
+        "Nitrógeno",
+        "Oxígeno",
+        "Metano"
+      ],
+      0
+    ],
+    [
+      "¿Qué partícula subatómica no posee carga eléctrica y se encuentra en el núcleo del átomo?",
+      [
+        "Protón",
+        "Electrón",
+        "Neutrón",
+        "Positrón"
+      ],
+      2
+    ]
+  ],
+  "Literatura": [
+    [
+      "¿Quién es el autor de la célebre obra El ingenioso hidalgo Don Quijote de la Mancha?",
+      [
+        "Lope de Vega",
+        "Miguel de Cervantes",
+        "Francisco de Quevedo",
+        "Calderón de la Barca"
+      ],
+      1
+    ],
+    [
+      "¿En cuál de las tragedias de William Shakespeare se pronuncia el famoso monólogo de ¿Ser o no ser, esa es la cuestión?",
+      [
+        "Macbeth",
+        "Otelo",
+        "Hamlet",
+        "El rey Lear"
+      ],
+      2
+    ],
+    [
+      "¿A qué legendario poeta griego se le atribuye la autoría de La Ilíada y La Odisea?",
+      [
+        "Homero",
+        "Hesíodo",
+        "Sófocles",
+        "Virgilio"
+      ],
+      0
+    ],
+    [
+      "¿En qué pueblo ficticio se desarrolla la historia de Cien años de soledad de Gabriel García Márquez?",
+      [
+        "Comala",
+        "Macondo",
+        "Santa María",
+        "Coronel"
+      ],
+      1
+    ],
+    [
+      "En la Divina Comedia de Dante Alighieri, ¿qué poeta clásico guía al protagonista a través del Infierno y el Purgatorio?",
+      [
+        "Ovidio",
+        "Horacio",
+        "Virgilio",
+        "Cicerón"
+      ],
+      2
+    ],
+    [
+      "¿Quién escribió la novela gótica Frankenstein o el moderno Prometeo, publicada en 1818?",
+      [
+        "Mary Shelley",
+        "Jane Austen",
+        "Emily Brontë",
+        "Virginia Woolf"
+      ],
+      0
+    ],
+    [
+      "¿Qué autor ruso escribió la obra psicológica Crimen y castigo, centrada en el personaje de Rodión Raskólnikov?",
+      [
+        "León Tolstói",
+        "Antón Chéjov",
+        "Fiódor Dostoyevski",
+        "Iván Turguénev"
+      ],
+      2
+    ],
+    [
+      "¿Quién es el protagonista redimido tras años en prisión en la novela Los miserables de Victor Hugo?",
+      [
+        "Javert",
+        "Jean Valjean",
+        "Marius Pontmercy",
+        "Quasimodo"
+      ],
+      1
+    ],
+    [
+      "¿Qué escritor británico creó la figura del Gran Hermano en su obra distópica 1984?",
+      [
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "George Orwell",
+        "H.G. Wells"
+      ],
+      2
+    ],
+    [
+      "¿Quién fue la primera escritora latinoamericana en ser galardonada con el Premio Nobel de Literatura (1945)?",
+      [
+        "Gabriela Mistral",
+        "Sor Juana Inés de la Cruz",
+        "Isabel Allende",
+        "Rosario Castellanos"
+      ],
+      0
+    ]
+  ],
+  "Geografía": [
+    [
+      "¿Cuál es la montaña más alta de la Tierra sobre el nivel del mar?",
+      [
+        "K2",
+        "Monte Everest",
+        "Kanchenjunga",
+        "Monte Kilimanjaro"
+      ],
+      1
+    ],
+    [
+      "¿Cuál es el río más caudaloso y largo del planeta?",
+      [
+        "Río Nilo",
+        "Río Amazonas",
+        "Río Yangtsé",
+        "Río Misisipi"
+      ],
+      1
+    ],
+    [
+      "¿Cuál es la capital federal de Australia?",
+      [
+        "Sídney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      2
+    ],
+    [
+      "¿Cuál es considerado el desierto no polar más árido de la Tierra?",
+      [
+        "Desierto de Atacama",
+        "Desierto del Sáhara",
+        "Desierto de Gobi",
+        "Desierto de Sonora"
+      ],
+      0
+    ],
+    [
+      "¿Cuál es la isla más grande del mundo por superficie (sin considerar masas continentales)?",
+      [
+        "Madagascar",
+        "Groenlandia",
+        "Nueva Guinea",
+        "Borneo"
+      ],
+      1
+    ],
+    [
+      "¿Cuál es el país con mayor extensión territorial del planeta?",
+      [
+        "Canadá",
+        "China",
+        "Rusia",
+        "Estados Unidos"
+      ],
+      2
+    ],
+    [
+      "¿Cuál es el lago de agua dulce más profundo y antiguo del mundo?",
+      [
+        "Lago Superior",
+        "Lago Victoria",
+        "Lago Baikal",
+        "Lago Titicaca"
+      ],
+      2
+    ],
+    [
+      "¿A qué país sudamericano pertenece el archipiélago de las Islas Galápagos?",
+      [
+        "Colombia",
+        "Ecuador",
+        "Perú",
+        "Chile"
+      ],
+      1
+    ],
+    [
+      "¿Cómo se llama la línea imaginaria de longitud 0° que sirve como referencia horaria global?",
+      [
+        "Meridiano de Greenwich",
+        "Ecuador terrestre",
+        "Trópico de Cáncer",
+        "Círculo Polar Ártico"
+      ],
+      0
+    ],
+    [
+      "¿Qué estrecho natural conecta el océano Atlántico con el mar Mediterráneo?",
+      [
+        "Estrecho de Bering",
+        "Estrecho de Gibraltar",
+        "Estrecho de Magallanes",
+        "Estrecho del Bósforo"
+      ],
+      1
+    ]
+  ]
+}

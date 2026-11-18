@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Configuración básica de codificación de caracteres y diseño adaptable para dispositivos móviles -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  
+  <!-- Título de la pestaña del navegador -->
+  <title>Trivia Clásica</title>
+  
+  <!-- Enlace a la hoja de estilos CSS principal -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Importación de la fuente tipográfica "EB Garamond" desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Video de fondo que se reproduce automáticamente, en bucle, silenciado y adaptable para móviles -->
+  <video id="bgVideo" autoplay loop muted playsinline>
+    <source src="assets/fondo-principal.mp4" type="video/mp4">
+  </video>
+  
+  <!-- Capa superpuesta sobre el video (overlay) para oscurecerlo o darle efectos visuales -->
+  <div class="video-overlay"></div>
+
+  <!-- Logo institucional ubicado estáticamente en la esquina inferior derecha -->
+  <div class="logo-corner">
+    <img src="assets/logo.png" alt="Logo">
+  </div>
+
+  <!-- Botón interactivo para silenciar o activar la música de fondo -->
+  <button id="muteButton" class="icon-button" aria-label="Silenciar música" title="Silenciar música">
+    <img id="muteIcon" src="assets/musicOn-icon.png" alt="">
+    <span id="muteFallback">🔊</span>
+  </button>
+
+  <!-- Elemento de audio para la pista musical principal en bucle -->
+  <audio id="backgroundMusic" loop preload="auto">
+    <source src="assets/musica principal.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ✅ AUDIOS DE EFECTOS DE SONIDO -->
+  
+  <!-- Sonido al acertar una respuesta -->
+  <audio id="audioWin" preload="auto">
+    <source src="assets/sonidoWin.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Sonido al fallar una respuesta -->
+  <audio id="audioFail" preload="auto">
+    <source src="assets/sonidoFallo.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Sonido al ganar la partida completa -->
+  <audio id="audioGameWin" preload="auto">
+    <source src="assets/youWin.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Sonido al perder la partida completa -->
+  <audio id="audioGameLose" preload="auto">
+    <source src="assets/youLOSE.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Sonido del temporizador o alerta de tiempo -->
+  <audio id="audioTimer" preload="auto">
+    <source src="assets/timerGoesOFF.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Contenedor principal dinámico donde JavaScript renderizará las pantallas de la trivia -->
+  <main id="app"></main>
+  
+  <!-- Contenedor para notificaciones emergentes (mensajes tipo Toast) accesibles -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  
+  <!-- ✅ CONTENEDOR PARA FEEDBACK DE RESPUESTAS (IMÁGENES) -->
+  <div id="feedbackContainer" class="feedback-container"></div>
+
+  <!-- Script principal de JavaScript que controla toda la lógica del juego -->
+  <script src="script.js"></script>
+
+</body>
+</html>
