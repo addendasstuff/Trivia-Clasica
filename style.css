@@ -702,3 +702,14 @@ html {
   font-family: Arial, sans-serif;
   resize: vertical;
 }
+
+/* ✅ MODO SOLO FONDO (tecla H) */
+.ui-hidden #app,
+.ui-hidden .icon-button,
+.ui-hidden .logo-corner,
+.ui-hidden .game-header,
+.ui-hidden .toast,
+.ui-hidden .feedback-container,
+.ui-hidden .overlay-panel {
+  display: none !important;
+}

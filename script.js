@@ -1272,8 +1272,22 @@ async function commitQuestionEditor() {
   }
 }
 
+
+// ✅ CRÉDITO FIJO EN LA ESQUINA INFERIOR IZQUIERDA (EN TODAS LAS PANTALLAS)
+const creditEl = document.createElement("div");
+creditEl.textContent = "Hecho por: Laura Georgina Ruiz Campos";
+creditEl.style.cssText = "position: fixed; left: 12px; bottom: 10px; z-index: 60; color: #fff; font-size: 13px; font-weight: bold; text-shadow: 0 2px 6px #000; pointer-events: none;";
+document.body.appendChild(creditEl);
+
 window.addEventListener("DOMContentLoaded", async () => {
   await loadConfig();
   await loadQuestions();
   await renderSplash();
+});
+// ✅ TECLA H: OCULTAR / MOSTRAR TODA LA INTERFAZ (SOLO FONDO)
+document.addEventListener("keydown", (e) => {
+  if (e.target.matches("input, textarea, select")) return;
+  if (e.key.toLowerCase() === "h") {
+    document.body.classList.toggle("ui-hidden");
+  }
 });
